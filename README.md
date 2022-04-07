@@ -1,0 +1,1 @@
+# Sample AEM project template
