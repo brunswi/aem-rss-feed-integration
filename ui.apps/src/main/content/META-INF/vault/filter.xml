@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/rss-feed-integration/clientlibs"/>
+    <filter root="/apps/rss-feed-integration/components"/>
+    <filter root="/apps/rss-feed-integration/i18n"/>
+</workspaceFilter>
