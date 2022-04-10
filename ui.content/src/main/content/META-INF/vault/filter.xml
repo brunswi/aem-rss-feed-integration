@@ -2,6 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/rss-feed-integration" mode="merge"/>
     <filter root="/content/rss-feed-integration" mode="merge"/>
-    <filter root="/content/dam/rss-feed-integration/asset.jpg" mode="merge"/>
+    <filter root="/content/importer" mode="merge"/>
+    <filter root="/content/dam/rss-feed-integration" mode="merge"/>
     <filter root="/content/experience-fragments/rss-feed-integration" mode="merge"/>
 </workspaceFilter>

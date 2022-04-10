@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[cq:PollConfig]"
+    jcr:primaryType="nt:unstructured"
+    interval="{Long}300"
+    source="rss:https://www.repubblica.it/rss/repubblica/viaggi/feed.rss"
+    target="/content/dam/rss-feed-integration/repubblica"/>

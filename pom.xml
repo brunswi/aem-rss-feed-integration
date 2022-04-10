@@ -536,7 +536,23 @@ Bundle-DocURL:
                 <artifactId>core.wcm.components.core</artifactId>
                 <version>${core.wcm.components.version}</version>
             </dependency>
-
+            <!-- rome -->
+            <dependency>
+                <groupId>com.rometools</groupId>
+                <artifactId>rome</artifactId>
+                <version>1.18.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.rometools</groupId>
+                <artifactId>rome-modules</artifactId>
+                <version>1.18.0</version>
+            </dependency>
+            <!-- jdom -->
+            <dependency>
+                <groupId>org.apache.servicemix.bundles</groupId>
+                <artifactId>org.apache.servicemix.bundles.jdom</artifactId>
+                <version>2.0.6.1_1</version>
+            </dependency>
 
             <!-- Testing -->
             <dependency>

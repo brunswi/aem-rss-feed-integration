@@ -77,6 +77,23 @@
                             <type>zip</type>
                             <target>/apps/rss-feed-integration-packages/application/install</target>
                         </embedded>
+                        <!-- rome -->
+                        <embedded>
+                            <groupId>com.rometools</groupId>
+                            <artifactId>rome</artifactId>
+                            <target>/apps/rss-feed-integration-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.rometools</groupId>
+                            <artifactId>rome-modules</artifactId>
+                            <target>/apps/rss-feed-integration-vendor-packages/application/install</target>
+                        </embedded>
+                        <!-- jdom -->
+                        <embedded>
+                            <groupId>org.apache.servicemix.bundles</groupId>
+                            <artifactId>org.apache.servicemix.bundles.jdom</artifactId>
+                            <target>/apps/rss-feed-integration-vendor-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -196,6 +213,19 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        <!-- rome -->
+        <dependency>
+            <groupId>com.rometools</groupId>
+            <artifactId>rome</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.rometools</groupId>
+            <artifactId>rome-modules</artifactId>
+        </dependency>
+        <!-- jdom -->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.jdom</artifactId>
+        </dependency>
     </dependencies>
 </project>

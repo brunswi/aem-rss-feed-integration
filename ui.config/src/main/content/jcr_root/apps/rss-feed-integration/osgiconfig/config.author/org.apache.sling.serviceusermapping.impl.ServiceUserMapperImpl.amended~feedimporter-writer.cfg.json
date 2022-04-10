@@ -1,0 +1,6 @@
+{
+  "service.ranking":0,
+  "user.mapping":[
+    "rss-feed-integration.core:feedimporter-writer=[feedimporter-writer-service]"
+  ]
+}
